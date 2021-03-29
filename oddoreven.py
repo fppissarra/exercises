@@ -25,12 +25,12 @@ while num != 0:
 		# Ask it again. (It's another round!)
 		num = float(input("Tell me a number between 1 and 1000. Press 0 to finish the program."))
   
-# But if you miss it...
-else:
-	# It tells you must enter a valid value.
-	print("You must enter a number between 1 and 1000. \n")
-	# You'll be asked again.
-	num = float(input("Tell me a number between 1 and 1000. Press 0 to finish the program."))
+	# But if you miss it...
+	else:
+		# It tells you must enter a valid value.
+		print("You must enter a number between 1 and 1000. \n")
+		# You'll be asked again.
+		num = float(input("Tell me a number between 1 and 1000. Press 0 to finish the program."))
 
 # And then you decided you want to finish the programme.
 else:
