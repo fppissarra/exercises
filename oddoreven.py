@@ -2,7 +2,7 @@
 print("Odd or Even 'Calculator' \n")
 
 # Welcome a user then ask her/him for a number between 1 and 1000. 
-# When the user gives you the number, you check if it's odd or even and then you print a message letting them know.
+# When the user gives you the number, you check if it's odd or even and then you print a message letting her/him know.
 
 # Calculator
 def OddOrEven(num):
