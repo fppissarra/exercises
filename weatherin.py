@@ -1,5 +1,5 @@
 # Weather in...
-print("Tempo em... \n")
+print("Weather in... \n")
 
 # Welcome a user then ask her/him to tell you a place on Earth. 
 # When the user gives you the answer, you check the weather exactly on that time and then print a message letting her/him know.
@@ -30,9 +30,9 @@ def toC(fah):
   return c
 
 # Ask user for a location.
-city = str(input("Me fale um local: "))
+city = str(input("Enter a city: "))
 # Assign the search to the location provided by the user.
-search = "Tempo em %s" %city
+search = "Weather in %s" %city
 # Specify the URL' search.
 url = f"https://www.google.com/search?&q={search}"
 
@@ -54,4 +54,4 @@ c = toC(fah)
 horario = agora.strftime("%d/%m/%Y, %H:%M")
 
 # Show the user what (s)he asked for.
-print("\n A temperatura em %s (UTC) no local %s é de %2.f°C." %(horario,city,c))
+print("\n The weather in %s (UTC) in %s is %2.f°C." %(horario,city,c))
