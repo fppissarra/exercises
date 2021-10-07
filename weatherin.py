@@ -51,7 +51,7 @@ fah = Change(f)
 c = toC(fah)
 
 # It assigns a timestamp formatted.
-horario = agora.strftime("%d/%m/%Y, %H:%M")
+horario = agora.strftime("%m-%d-%Y %H:%M")
 
 # Show the user what (s)he asked for.
-print("\n The weather in %s (UTC) in %s is %2.f°C." %(horario,city,c))
+print("\n The weather in %s city on %s (UTC) was %2.f°C." %(city,horario,c))
