@@ -54,4 +54,4 @@ c = toC(fah)
 horario = agora.strftime("%m-%d-%Y %H:%M")
 
 # Show the user what (s)he asked for.
-print("\n The weather in %s city on %s (UTC) was %2.f°C." %(city,horario,c))
+print("\n The weather in %s on %s (UTC) was %2.f°C." %(city,horario,c))
